@@ -5,12 +5,18 @@ require 'config.php';
 # combine the words defined in config.
 $combined = $random1.$random2.$random3.$random4;
 
-# Basic encryption
-
-crypt($combined,$salt);
-
+# Using basic encryption
+$base = base64_encode($combined);
+$basic = base64_encode($base);
+$basicFinal = $basic;
+# Advanced-ish encryption
+$one = crypt($combined,$salt);
+$two = crypt($one,$salt);
+$AdvancedFinal = $two;
 # Just defining final here for now, we definitely are not done.
-$final = ""; 
+
+$final = $AdvancedFinal; 
+
 # Finish up!
 if($debug == true){
 	# if debug is true, print all other stuff as well
