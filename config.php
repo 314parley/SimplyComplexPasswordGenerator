@@ -1,17 +1,14 @@
 <?php
+# Original idea for taking 4 words came from the XKCD comic.
 # I got my words from http://www.watchout4snakes.com/CreativityTools/RandomWord/RandomPhrase.aspx
 $random1 = "subpastor";
 $random2 = "bandanaed";
 $random3 = "resulphurize";
 $random4 = "voetsek";
 
-# salting... encrypted.
+# salting.
 $originalSalt = "LOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOL";
-#combine the words, and make my life easier
-#$combined = $random1.$random2.$random3.$random4;
 
+$debug = true;
 
-#echo "Original Words: ".$random1.", ".$random2.", ".$random3.", ".$random4."\n\n";
-#echo "Combined: ".$combined."\n\n";
-#echo "Original Salt: ".$originalSalt."\n\n";
 ?>
